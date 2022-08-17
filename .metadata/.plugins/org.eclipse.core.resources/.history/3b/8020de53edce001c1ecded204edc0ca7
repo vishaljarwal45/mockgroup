@@ -1,0 +1,22 @@
+package variabletypes;
+
+public class Nonstaticvariables {
+
+	int a=10;
+	double v=22.5;
+	public static void main(String[] args) {
+ 
+		Nonstaticvariables ns =new Nonstaticvariables();
+		    ns.test();
+		 System.out.println("value after calling is "+ns.a);
+		 System.out.println("value after calling is "+ns.v);
+	   Variabletypes1 vv=new Variabletypes1();
+	   System.out.println("value of this is "+vv.m); 
+	
+	}
+ public void test() {
+	 int b=20;
+	 System.out.println("value of b is"+b);
+ }
+ 
+}

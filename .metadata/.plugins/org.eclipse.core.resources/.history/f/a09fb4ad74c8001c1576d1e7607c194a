@@ -1,0 +1,18 @@
+package methods;
+
+public class Nonstatic {
+
+	public static void main(String[] args) {
+		Nonstatic n= new Nonstatic();
+
+	}
+
+      public void test()
+      {
+    	  System.out.println(this is a test method non static);
+      }
+      
+   
+      
+      
+}

@@ -1,0 +1,25 @@
+package generalisation;
+
+public class Truck  implements Vehicle{
+
+	@Override
+	public void capacity() {
+  System.out.println("power produced by truck is 150 hp");		
+	}
+
+	@Override
+	public void wheels() {
+  System.out.println("wheels depends on size of truck eg,12,18 etc");		
+	}
+
+	@Override
+	public void battery() {
+  System.out.println(" battery capacity is 24 V");		
+	}
+
+	@Override
+	public void speed() {
+  System.out.println("speedometer of truck ranges from 0 to 200 kmph");		
+	}
+
+}

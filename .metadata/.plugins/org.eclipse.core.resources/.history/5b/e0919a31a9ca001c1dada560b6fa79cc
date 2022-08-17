@@ -1,0 +1,19 @@
+package vishal;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		Run();
+    Methods m=new Methods();
+    m.walk();
+    Vishal.run2();
+	}
+
+	  public static void Run () {
+		System.out.println("run in same class ");
+	  }
+	  public void walk () {
+		  
+		  System.out.println("non static run in same class ");
+	  }
+}

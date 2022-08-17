@@ -1,0 +1,32 @@
+package accessspecifier;
+
+public  class Modifier_vishal {
+
+	public static void main(String[] args) {
+
+		  Modifier_vishal k=new Modifier_vishal() ;
+		              k.vishal1();
+		              k.vishal2();
+		              k.vishal3();
+		              k.vishal4();
+		
+	}
+  public void vishal1() {
+	  System.out.println("this is public void vishal 1 method");}
+  
+  
+	private void vishal2() {
+		System.out.println("this is private void vishal 2 method");}
+	
+	
+	 void vishal3() {
+		 System.out.println(" this is default void vishal 3 method");}	
+	 
+	 
+	 protected void vishal4() {
+		 System.out.println("this is protected void vishal 4 method ");}
+	 
+	 
+	 
+	
+}

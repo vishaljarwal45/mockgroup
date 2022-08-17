@@ -1,0 +1,14 @@
+package variabletypes;
+
+public class Variabletypes1 {
+  
+	static int c=59;
+	int m=78;
+	
+	public static void main(String[] args) {
+
+	}
+ public void test2() {
+	 int a=89;
+ }
+}

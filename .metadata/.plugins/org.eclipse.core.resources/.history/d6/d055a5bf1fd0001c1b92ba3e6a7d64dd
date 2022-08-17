@@ -1,0 +1,25 @@
+package vishal;
+
+public class Prc_HR_Portal {
+
+	public static void main(String[] args) {
+
+		PrcEmployee vishal=new PrcEmployee();
+		
+		vishal.emp_name="vishal";
+		vishal.emp_age=25;
+		vishal.emp_desgn="SDET";
+		vishal.emp_gender='M';
+		vishal.emp_id="HDB0045";
+		vishal.emp_Mobnum=8482825222f;
+		vishal.emp_org="amazon";
+		
+		
+		vishal.Emp_info();
+		
+		System.out.println("===================================");
+		
+	
+	}
+
+}

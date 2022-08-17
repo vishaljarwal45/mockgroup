@@ -1,0 +1,42 @@
+package strings_prc;
+
+public class Strings_prc {
+
+	public static void main(String[] args) {
+
+		
+	  String v="vishal";
+	  System.out.println(v.length());       // length method
+		
+       System.out.println(v.toUpperCase());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

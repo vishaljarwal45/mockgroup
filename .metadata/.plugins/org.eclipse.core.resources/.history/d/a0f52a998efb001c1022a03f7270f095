@@ -1,0 +1,70 @@
+package collection_study;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class LInkedliststudy {
+
+	public static void main(String[] args) {
+
+             
+		  LinkedList li=new LinkedList();
+		  
+		  
+		  li.add("vishal");
+		  li.add(null);
+		  li.add(123);
+		  li.add(45.45);
+		  li.add(null);
+		  li.add(null);
+		  li.add(true);
+		  li.add('A');
+		  li.add("vishal");
+		  li.add(false);
+		  
+		  
+		  System.out.println(li);
+		  
+		  System.out.println(li.indexOf(123));
+		  System.out.println(li.contains(null));
+		  System.out.println(li.clone());
+		  System.out.println(li.get(6));
+		  System.out.println(li.peek());
+		  System.out.println(li.peekFirst());
+		  System.out.println(li.peekLast());
+		  System.out.println(li.poll());
+		  System.out.println(li.pollFirst());
+		  System.out.println(li.pollLast());
+		  
+		  System.out.println("======================");
+		  
+		  for(Object a:li) {                                 // for each
+			  System.out.println(a);
+		  }
+		  
+		  
+		  System.out.println("======================");
+
+		     Iterator it = li.iterator();
+		
+		   while(it.hasNext()) {
+			   
+			   System.out.println(it.next());
+		   }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

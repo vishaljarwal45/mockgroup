@@ -1,0 +1,21 @@
+package loops;
+
+public class ForLoops {
+
+	public static void main(String[] args) {
+		
+		//initialisation ,condition,updation
+                                                                    // 1st
+//           for(int i=11;i<=10;i++) {System.out.println(i);}
+		
+//	       (int i=2;i<20;i++) {                                     // 2nd
+//			System.out.println(2*2%10);}
+		
+		for(int i=23;i<=230;i=i+23) {
+			System.out.println(i);
+		}
+	
+				
+    for (int i=230;i>23;i=i-23) {
+    	System.out.println(i);
+    }}}

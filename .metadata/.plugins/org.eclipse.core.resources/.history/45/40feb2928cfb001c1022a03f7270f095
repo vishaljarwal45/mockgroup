@@ -1,0 +1,49 @@
+package collection_study;
+
+import java.util.LinkedHashSet;
+
+public class LinkedHashset_study {
+
+	public static void main(String[] args) {
+
+
+		
+		LinkedHashSet lh=new LinkedHashSet();
+		        lh.add("vishal");
+		        lh.add(123);
+		        lh.add(45.45);
+		        lh.add("vishal");
+		        lh.add(123);
+		        lh.add('A');
+		        lh.add("jarwal");
+		        lh.add(null);
+		        lh.add(null);
+		        
+		        System.out.println(lh);   //maintained
+		
+		System.out.println(lh.contains(123));
+		System.out.println(lh.hashCode());
+		System.out.println(lh.remove(123));
+		System.out.println(lh.clone());
+		System.out.println(lh.size());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

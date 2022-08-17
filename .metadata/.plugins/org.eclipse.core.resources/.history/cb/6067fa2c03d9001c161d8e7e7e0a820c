@@ -1,0 +1,20 @@
+package abstractclass;
+
+public abstract  class MumbaiIndians {
+
+	public static void main(String[] args) {
+
+	}
+
+	public void Hitman()
+	{
+		System.out.println("no 1 T20 batter in the world");
+	}
+	 public void bumrah() {
+		 System.out.println("one of the best bowler in the world");
+	 }
+	 
+	public abstract  void ishan ();
+	
+	abstract void surya ();
+}

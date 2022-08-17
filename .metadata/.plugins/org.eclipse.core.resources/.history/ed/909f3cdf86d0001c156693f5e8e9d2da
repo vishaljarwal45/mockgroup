@@ -1,0 +1,41 @@
+package vishal;
+
+public class MpscCutOff {
+	
+
+	
+
+		public static void main(String[] args) {
+	 
+			//If I have got >=90 then i am in dist
+			// If i have got >=66 and <90  i am in 1st class
+			// If i have got >=50 and <66 i am in 2nd class
+			// if i have got >=40 and <50 i amin 3rd class
+			// else i am failed
+			int marks=88;
+			if(marks>=90) {
+				System.out.println("i am eligible for PSI");
+			}   
+				else if(marks>=66 & marks<90) {
+					System.out.println("i am eligible for STI");}
+		        
+				else if(marks>=50 & marks<66) {
+					System.out.println("i am eligible for ASO");}
+					
+					else if (marks>=40 & marks<50) {
+						System.out.println(" not qualified");}
+					
+					else 
+					{ System.out.println("i am fail");
+							
+				}
+				
+				
+				
+			
+				}
+		
+
+				}
+
+}

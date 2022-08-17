@@ -1,0 +1,29 @@
+package practice;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		  test();                                  //1
+          Mi.mumbai();                              //2
+          Methods m=new Methods();
+          m.test2();                                //3
+          Mi n=new Mi();
+          n.indians();
+          
+	}
+
+	
+	
+    public static void test()
+    {
+    	System.out.println("this is practice test ");
+    	
+    }
+
+      public void test2()
+      {
+        System.out.println("this is practice of nonstatic same class ");
+    	  
+      }
+
+}

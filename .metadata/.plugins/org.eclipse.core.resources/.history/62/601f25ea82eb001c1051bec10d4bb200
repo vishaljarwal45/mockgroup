@@ -1,0 +1,67 @@
+package array_Study;
+
+public class Multi_array {
+
+	public static void main(String[] args) {
+
+
+		int  vj[][]= {{10,20,30},{40,50,60},{70,80,90}};
+		
+//		 System.out.println(vj[0][0]);
+		
+		
+		 for(int i=0;i<=2;i++)
+		 {for (int j=0;j<=2;j++)
+			 System.out.print(vj [i][j]+ " ");
+		 System.out.println();
+		 }
+		
+	System.out.println("==========================");
+	
+	
+		 char jv[][]= {{'A','B','C','D','E','F'},{'G','H','I','J','K','L'},
+		 {'M','N','O','P','Q','R'},{'S','T','U','V','W','X'}};
+		 
+		for(int i=0;i<=3;i++)
+		
+		{for (int j=0;j<=5;j++)
+		
+		System.out.print(jv [i][j]+"  ");
+		System.out.println();
+		}
+		
+		System.out.println("==========================");
+
+		
+		String b[][]= {{"vishal","jarwal","bsc","2018"},{"keval"," singal", "ba","2020"},
+				{"suraj","kakarwal","ba","2020"},{"ishwar"," ghunawat"," bsc"," 2018"},
+				{"kisan"," bahure"," ba"," 2016"}};
+//		
+//		for(int i=0;i<=b.length-1;i++)
+//		{for(int j=0;j<=3;j++)//		
+//		System.out.print(b[i][j]+"  ");
+//		System.out.println();
+//		
+//		
+			
+		for (int i=0;i<=b.length-1;i++)
+		{ for(int j=0;j<=b.length-1;j++)
+		
+			System.out.print(b[i][j]);
+		
+		System.out.println();
+		
+		
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

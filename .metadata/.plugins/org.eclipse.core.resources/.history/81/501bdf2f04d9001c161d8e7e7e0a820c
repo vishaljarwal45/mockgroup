@@ -1,0 +1,15 @@
+package abstractclass;
+
+public class Csk extends MumbaiIndians{
+
+	public static void main(String[] args) {
+
+	Csk c=new Csk();
+	   c.ishan();
+		c.bumrah();
+		c.Hitman();
+		c.surya();
+		
+	}
+
+}

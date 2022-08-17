@@ -1,0 +1,29 @@
+package inheritance;
+public class SingleLevelInhertance{
+	
+
+
+	public static void main(String[] args) {
+    
+		Son s=new Son ();
+		s.laptop();
+		s.mobile();
+		s.home();
+		s.love();
+		System.out.println("=====================");
+		
+		Mother m =new Mother ();
+		m.love();
+		m.home();
+		experiment();
+	}
+   public static void experiment() {
+	   System.out.println("experiment successful");
+   }
+   
+   
+	   
+	   
+	   
+   }
+

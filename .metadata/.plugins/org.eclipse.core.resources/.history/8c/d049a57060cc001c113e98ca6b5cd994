@@ -1,0 +1,22 @@
+package myproject;
+
+public class Myinfo {
+
+	public static void main(String[] args) {
+		Myinfo m=new Myinfo();
+		m.info("vishal", 25," ABD220197","Bsc"," mathematics", 2018,75.2f);
+	
+	}
+
+	public void info(String name,int age,String PRN, String degree,String branch,int pass,float weight)
+	{
+		System.out.println("my name is "+name);
+		System.out.println("my age is "+age);
+		System.out.println("my PRN no is "+PRN);
+		System.out.println("i have completed my degree in"+degree);
+		System.out.println("my branch is"+branch);
+		System.out.println("my passout year is "+pass);
+		System.out.println("my weight is "+weight);
+	}
+	
+}

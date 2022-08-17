@@ -1,0 +1,43 @@
+package loops;
+
+public class ForLoops {
+
+	public static void main(String[] args) {
+		
+		//initialisation ,condition,updation
+                                                                    // 1st
+//           for(int i=11;i<=10;i++) {System.out.println(i);}
+		
+//	       (int i=2;i<20;i++) {                                     // 2nd
+//			System.out.println(2*2%10);}
+		
+		for(int i=3;i<=300;i++) {
+			System.out.println(i%3);
+		}
+	
+		System.out.println("==========================");		
+    for (int i=230;i>23;i=i-23) 
+    {
+    	System.out.println( " "+i);
+    }
+    	System.out.println("================");
+  for (char x='A';x <='Z';x++ ) {
+	  System.out.print(x);
+  }
+	System.out.println("================");
+
+  for(int k=200;k>=20;k=k-20) {
+	  System.out.println(k);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	  
+	  
+}}

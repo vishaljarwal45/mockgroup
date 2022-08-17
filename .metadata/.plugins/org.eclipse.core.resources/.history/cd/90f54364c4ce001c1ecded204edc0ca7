@@ -1,0 +1,18 @@
+package variabletypes;
+
+public class Nonstaticvariables {
+
+	int a=10;
+	
+	public static void main(String[] args) {
+ 
+		Nonstaticvariables ns =new Nonstaticvariables();
+		    ns.test();
+		 System.out.println("value after calling is "+ns.a);
+	}
+ public void test() {
+	 int b=20;
+	 System.out.println("value of b is"+b);
+ }
+ 
+}

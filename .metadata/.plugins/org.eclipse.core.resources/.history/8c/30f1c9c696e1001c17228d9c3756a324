@@ -1,0 +1,16 @@
+package casting;
+
+public class Flipkart extends Amazon {
+
+	void macbook_air() {
+		System.out.println(" macbook air price on fliplart is 78,000 rs");
+	}
+	
+	void Macbook_pro() {
+		
+		System.out.println("macbook pro price on flipkart is 1.12000 rs");
+	}
+	
+	
+	
+}

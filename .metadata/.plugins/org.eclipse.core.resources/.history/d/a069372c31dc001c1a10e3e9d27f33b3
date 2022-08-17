@@ -1,0 +1,59 @@
+package polymorphism;
+
+public class MumbaiIndians {
+	
+String name ="myself vishal jarwal ";	
+int no_of_countries_to_visit=55;
+float exchange_value =80.8f;
+boolean dream=true;                                   //  global variables
+static int salary=22 ;
+String packagein ="LPA";
+
+
+ public static void main(String[] args) {
+	 String name ="myself vishal ";	
+	 int no_of_countries_to_visit=44;               // local variables
+	 float exchange_value =76.87f;
+	 boolean dream=true;
+	  int salary=18 ;
+	 String packagein =" LPA";
+	 
+
+System.out.println(name+"number of countries to visit is "+no_of_countries_to_visit);
+System.out.println("my salary is "+salary+packagein);
+System.out.println("currency exchange value is as compared to rupee "+exchange_value);
+if (salary>=20) {
+	System.out.println("i will go on world tour;");}
+	
+	else {
+		System.out.println("i am not going anywhere ");
+	}
+System.out.println("================================================================");
+
+         MumbaiIndians mn=new MumbaiIndians();
+                     mn.MumbaiIndiansnew();
+    
+
+
+System.out.println("================================================================");
+	 }
+
+ 
+	public void  MumbaiIndiansnew ()
+	{
+		System.out.println("this is champoion side");
+		
+	System.out.println(this.name+"number of countries to visit is "+this.no_of_countries_to_visit);
+	System.out.println("my salary is "+salary+this.packagein);
+	System.out.println("currency exchange value is as compared to rupee "+this.exchange_value);
+	if (salary>=20) {
+		System.out.println("i will go on world tour;");}
+		
+		else {
+			System.out.println("i am not going anywhere ");
+		}
+	}	
+	
+	
+	
+}

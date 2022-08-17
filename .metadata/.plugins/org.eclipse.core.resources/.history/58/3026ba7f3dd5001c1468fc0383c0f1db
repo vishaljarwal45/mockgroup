@@ -1,0 +1,28 @@
+package inheritance;
+
+public class Son extends Mother {
+   
+	public void mobile () {
+		System.out.println(" sons mobile");}
+	
+	public void laptop (){
+		System.out.println(" sons laptop");
+	}	
+	}
+
+//import methods.Nonstaticother;
+//import myproject.Myinfo;
+//
+//public class Biodata extends Nonstaticother{
+//	  
+//	  public void that () {
+//		  System.out.println(" new");
+//	  }
+//  
+//	
+//
+//   public static void main(String[]args) {
+//	   Biodata b=new Biodata();
+//	     b.otherclass();;
+//	   
+//   }}

@@ -1,0 +1,12 @@
+package variabletypes;
+
+public class Variabletypes1 {
+  
+	static int c=59;
+	int i=89;
+	
+	public static void main(String[] args) {
+
+	}
+
+}

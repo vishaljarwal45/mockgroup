@@ -1,0 +1,30 @@
+package constructor;
+
+public class Multiconst {
+
+	
+	   int n1 ;
+	   int n2;
+	   int n3;
+	  double mobileno;
+	  
+	  public Multiconst() {
+		  n1=100;
+		  n2=345;
+		  n3=554;
+		  
+	  }
+	  
+	  
+	public static void main(String[] args) {
+		Multiconst mc= new Multiconst();
+		  mc.test();
+
+	}
+        public void test() {
+        	
+        	int div=n1/n2/n3;
+        	System.out.println("division of this is "+div);
+        	
+        }
+}

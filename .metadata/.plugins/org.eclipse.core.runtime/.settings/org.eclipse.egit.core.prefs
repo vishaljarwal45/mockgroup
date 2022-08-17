@@ -1,0 +1,9 @@
+GitRepositoriesView.GitDirectories=C\:\\Users\\icon\\eclipse-workspace\\Allproject\\.git;C\:\\Users\\icon\\git\\newrepo\\.git;C\:\\Users\\icon\\eclipse-workspace\\mockproject\\.git;
+GitRepositoriesView.GitDirectories.relative=Allproject\\.git;C\:\\Users\\icon\\git\\newrepo\\.git;mockproject\\.git;
+RepositoryGroups.uuids=
+RepositorySearchDialogSearchPath=C\:\\Users\\icon\\git\\new
+core_git_servers=
+core_http_client=jdk
+core_preferredMergeStrategy=jgit-default-mergeStrategy
+core_ssh_default_agent=\\\\.\\pageant
+eclipse.preferences.version=1

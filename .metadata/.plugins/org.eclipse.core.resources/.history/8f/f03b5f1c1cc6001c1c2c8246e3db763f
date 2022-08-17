@@ -1,0 +1,16 @@
+package myproject;
+
+public class Biodata {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        String name;
+        name="vishal";
+        int rollNum;
+        rollNum=45;
+        
+        
+        
+	}
+
+}

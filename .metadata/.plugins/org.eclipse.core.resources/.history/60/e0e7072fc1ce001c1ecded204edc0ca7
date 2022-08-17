@@ -1,0 +1,21 @@
+package variabletypes;
+
+public class Variabletypes {
+
+	static int a=40;
+	
+	
+	public static void main(String[] args) {
+		Variabletypes vt= new Variabletypes();
+		    vt.display();
+		System.out.println("value of a is "+a);      // same class
+		System.out.println("value of b is "+Variabletypes1.c);               // another class
+
+	}
+  public void display(){
+	  int b=10;
+	  System.out.println("value of b is "+b);
+	  System.out.println("vlue of a is "+a);
+	 
+  }
+}

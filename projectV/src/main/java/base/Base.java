@@ -1,0 +1,48 @@
+package base;
+
+import java.io.File; 
+import java.io.IOException;
+import java.time.Duration;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
+import org.testng.ITestResult;
+import org.testng.Reporter;
+
+import utility.Utility;
+import utility.utilityIN;
+public class Base {
+
+	public static WebDriver driver;
+	
+	public  void initializebrowser() throws IOException {
+		
+		System.setProperty("webdriver.gecko.driver", "C:\\selenium files\\lib\\geckodriver.exe");
+		driver=new FirefoxDriver();
+		
+		
+		driver.get(utilityIN.getdatafromproperties("URL"));
+		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
+		
+}
+	public static void screenshotmethod(ITestResult result) throws IOException {
+		
+		 File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		
+		File dest=new File("C:\\selenium files\\Screenshot\\"+result.getName()+".png");
+		
+		FileHandler.copy(src, dest);
+		
+		Reporter.log("taking scrrenshot",true);
+		}
+	
+	
+	
+	
+	
+	
+}

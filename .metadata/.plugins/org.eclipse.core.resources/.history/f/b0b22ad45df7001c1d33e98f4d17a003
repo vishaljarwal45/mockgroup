@@ -1,0 +1,62 @@
+package collection_study;
+
+import java.util.ArrayList;
+
+public class ArrayList_study {
+
+	public static void main(String[] args) {
+
+
+		ArrayList al=new  ArrayList();
+		
+		al.add("Vishal");
+		al.add(77);
+		al.add(77.77);
+		al.add(null);
+		al.add(false);
+		al.add(true);
+		al.add(null);
+		al.add('A');
+	    al.add("");
+	    al.add(" ");
+	    al.add("Vishal");
+	    al.add("vishal");
+		
+		System.out.println(al);
+		System.out.println(al.size());
+		
+		System.out.println(al.get(5));
+		
+		System.out.println(al.indexOf(null));
+		
+		System.out.println(al.indexOf('A'));
+		
+		System.out.println(al.contains("vishal"));     // case sensitive (small-v)
+		
+		System.out.println(al.isEmpty());
+		
+		System.out.println(al.indexOf("Vishal"));
+		System.out.println(al.lastIndexOf("Vishal"));
+		System.out.println(al.indexOf("vishal"));
+		
+		System.out.println(al.subList(3, 8));
+		
+		System.out.println(al.remove(4));
+		
+		System.out.println(al);
+		System.out.println(al.remove(null));
+		System.out.println(al);
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

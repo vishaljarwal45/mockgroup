@@ -1,0 +1,11 @@
+package access_mdifire;
+
+public class Default {
+public static void main(String[]args) {
+	
+}
+void test2()
+{
+System.out.println("this is default test2");	
+}
+}

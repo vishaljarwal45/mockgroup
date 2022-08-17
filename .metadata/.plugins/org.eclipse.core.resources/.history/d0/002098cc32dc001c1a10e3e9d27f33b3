@@ -1,0 +1,25 @@
+package polymorphism;
+
+public class Csk  extends MumbaiIndians {
+
+	public static void main(String[] args) {
+
+		MumbaiIndians MI =new MumbaiIndians();
+		   MI.MumbaiIndiansnew();
+		   System.out.println("================================================================");
+
+		Csk cs=new Csk ();
+		   cs.Csknew();
+		   System.out.println("================================================================");
+
+		   cs.MumbaiIndiansnew();
+		   cs.Mumbaiindiansnew();
+	}
+   public  void Csknew () {
+	   System.out.println("this is chennai super kings");}
+   
+   
+   public void Mumbaiindiansnew() {
+	   System.out.println("this is champion mumbai indians");
+   }
+}

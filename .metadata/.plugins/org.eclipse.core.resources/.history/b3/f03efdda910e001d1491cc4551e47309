@@ -1,0 +1,9 @@
+package TestNGAsserts;
+
+import org.testng.annotations.Test;
+
+public class AssertEqualsStudy {
+  @Test
+  public void f() {
+  }
+}

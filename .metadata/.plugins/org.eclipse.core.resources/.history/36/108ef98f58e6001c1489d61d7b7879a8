@@ -1,0 +1,132 @@
+package string_study;
+
+public class String_methods {
+
+
+	public static void main(String[] args) {
+
+      String a="welcome";                                
+      String st=new String("you are welcome");
+      
+      System.out.println(st.length());
+		System.out.println(a.length());
+		
+		int mylength=st.length();                   // length method
+		System.out.println(mylength);   // to store the value
+		
+		
+		String v="vishal";
+		System.out.println(v.toUpperCase());
+		
+		String j=v.toUpperCase();                    //  toUppercase method
+		System.out.println(j.toLowerCase());         // to lowercase method
+		
+		System.out.println("=============");
+
+		
+		String v0="vishal";
+		String v1="vishal";  //stored in same memory
+		String v5="vishal";
+		
+		String v2=new String("vishal");
+		String v3=new String("vishaljarwal@123");
+		
+		System.out.println(" (==method)=============");
+		
+		System.out.println(v0==v2);            // == method
+		System.out.println(v1==v5);
+		System.out.println(v2==v3);
+		System.out.println(v0==v5);
+		
+		System.out.println("equals =============");
+
+		
+		System.out.println(v0.equals(v1));      // equals method checks the fields inside
+		System.out.println(v1.equals(v2));
+		System.out.println(v2.equals(v3));
+		
+		
+		System.out.println(v0.equalsIgnoreCase(v1));
+		
+		System.out.println("contains =============");
+
+		
+		// contains method
+		String h="vishal";
+		System.out.println(h.contains("vis"));
+		System.out.println(h.contains("sal"));
+		
+		System.out.println("is empty=============");
+		// is empty method
+		
+		String a0="aurangabad";
+		String a1="";
+		String a2=" "; System.out.println(a2.isEmpty());
+		
+		
+		System.out.println(a1.isEmpty());
+		boolean result =a1.isEmpty();
+		System.out.println(result);
+		
+		System.out.println("balnk =============");
+
+		// blank method
+		
+		System.out.println(a1.isBlank());
+		System.out.println(a2.isBlank());
+		System.out.println(a0.isBlank());
+		 
+		System.out.println("cahr at ============="); 
+
+		// char at method
+		String m="aurangabad";
+		
+		System.out.println(m.charAt(3));
+		  char ans= m.charAt(9);
+		System.out.println(ans);
+		
+		System.out.println("ends with =============");
+
+		
+		// ends with
+		String t="mumbai indians";
+		System.out.println(t.endsWith("ias"));
+		System.out.println(t.endsWith("indians"));
+		
+		System.out.println(" starts with =============");
+
+		// starts with
+		System.out.println(t.startsWith("Mumbai"));
+		System.out.println(t.startsWith("mum"));
+		System.out.println(t.startsWith("bai",3));
+		
+		System.out.println("substring =============");
+
+		// substring method
+		System.out.println(t.substring(5));
+		System.out.println(t.substring(2, 6));
+		
+		//concat 
+		
+		String name="kisan";
+		
+		String name2=" faujdar";
+		
+		System.out.println(name.concat(name2));
+		System.out.println(name.concat(" psi honar"));
+		
+		//index of method
+		
+		String mm="apple";
+		System.out.println(mm.indexOf(p));
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

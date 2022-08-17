@@ -1,0 +1,39 @@
+package array_Study;
+
+public class Arrey_2 {
+
+	public static void main(String[] args) {
+ 
+		
+		
+		
+		char name[]= {'v','i','s','h','a','l'};
+	
+		
+		for (int v=0;v<=name.length-1;v++)
+			
+		System.out.println(name[v]);
+		
+		
+		for (int i=name.length-1;i>=0;i--)
+			System.out.println(name[i]);
+		
+		
+		
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+
