@@ -1,0 +1,15 @@
+package methods;
+
+public class Method02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       
+	}
+
+	
+	  public static void()
+	  {
+		  System.out.println("this  is a method2");
+	  }
+}

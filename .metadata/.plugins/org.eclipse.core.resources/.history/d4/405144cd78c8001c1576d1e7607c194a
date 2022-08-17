@@ -1,0 +1,36 @@
+package methods;
+
+public class MathOperations {
+
+	public static void main(String[] args) {
+		MathOperations m= new MathOperations();
+		m.add();
+		sub();
+
+	}
+   
+	public void add() {
+	int a;
+	int b;
+	int addition;
+	a=5;
+	b=5;
+	addition=a+b;
+	System.out.println("addition is "+addition);
+	}
+	
+     public static void sub() {
+     int a;
+     int b;
+     int subs;
+     a=45;
+     b=23;
+     subs=a-b;
+     System.out.println("sub is "+subs);
+     }
+	
+  
+	
+	
+}
+}

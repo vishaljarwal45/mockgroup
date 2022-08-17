@@ -1,0 +1,31 @@
+package vishal;
+
+public class vishal {
+
+	public static void main(String[] args) {
+		String name;
+		name="vishal jarwal";
+		int a;
+		float b;
+		double add;
+		int c;
+		char e;
+		a=285;
+		b=20.1530f;
+		c=100;
+		e=5;
+		add=a*b/c+e;
+		boolean s;
+		s=true;
+		byte v ;
+		v=125;
+		System.out.println("add of "+add+s+v);
+		
+		 
+		
+		
+
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package casting;
+
+public class Amazon {
+
+	
+	void macbook_air() {
+		System.out.println("macbook air price on amazon is 92,000 rs");
+	}
+	
+	void Macbook_pro() {
+		System.out.println("macbook pro price on amazon is 130,000 Rs");
+	}
+	
+	
+}

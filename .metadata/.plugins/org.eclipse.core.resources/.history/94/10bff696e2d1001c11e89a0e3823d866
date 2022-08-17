@@ -1,0 +1,10 @@
+package loops;
+
+public class ForLoops {
+
+	public static void main(String[] args) {
+		
+		//initialisation ,condition,updation
+
+		for(int i=10;i<=10;i++) {System.out.println(i);}
+	}}

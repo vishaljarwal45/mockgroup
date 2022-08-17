@@ -1,0 +1,22 @@
+package constructor;
+
+public class PracticeConst {
+
+	public static void main(String[] args) {
+      int a;
+      int b;
+      int c;
+      int d;
+      int e;
+     public PracticeConst(int a, int b ,int c,int d) {
+    		 
+    	 
+    	
+     }
+     
+      
+		
+		
+	}
+
+}

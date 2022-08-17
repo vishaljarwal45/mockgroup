@@ -1,0 +1,25 @@
+package generalisation;
+
+public class Bike implements Vehicle{
+
+	@Override
+	public void capacity() {
+     System.out.println("generally bike capacit is from 100cc to 650cc in non sports bikes");		
+	}
+
+	@Override
+	public void wheels() {
+    System.out.println("bikes are having two wheels ");		
+	}
+
+	@Override
+	public void battery() {
+    System.out.println("less capacity battery are used in bikes ");		
+	}
+
+	@Override
+	public void speed() {
+    System.out.println("speedometer of bike ranges between 0 t0 200 mostly");		
+	}
+
+}

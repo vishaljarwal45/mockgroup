@@ -1,0 +1,22 @@
+package casting;
+
+public class Primitive_casting {
+
+	public static void main(String[] args) {
+
+
+		int a=5;
+		
+		double b=a;                                  // lower to higher
+			System.out.println(b);
+		
+		double c=5.5;
+		
+		int d=(int) c;
+		System.out.println(d);
+			
+			
+			
+	}
+
+}

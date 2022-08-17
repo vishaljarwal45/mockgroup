@@ -1,0 +1,34 @@
+package practice;
+
+public class Mathsprac {
+	public static void main(String[] args) {
+	     
+		Mathsprac m=new Mathsprac();
+		m.same();}
+		
+		public static void divi()
+		{
+		  int a;
+		  int b;
+		  int division;
+			
+	
+         a=222;
+         b=13;
+         division=a/b;
+       System.out.println("the  division of this is  "+division);
+    }
+        public void same()
+     {
+   	  int a;
+    	  int b;
+    	  int c;
+    	  int multiplication;
+    	  a=4;
+    	  b=5;
+    	  c=6;
+    	  multiplication=a*b*c;
+    	  
+    	  System.out.println("call in same class multiplication is "+multiplication);
+      }
+    }

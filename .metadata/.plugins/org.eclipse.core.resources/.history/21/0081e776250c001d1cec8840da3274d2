@@ -1,0 +1,9 @@
+package testXMLStudy;
+
+import org.testng.annotations.Test;
+
+public class TestXML1 {
+  @Test
+  public void f() {
+  }
+}

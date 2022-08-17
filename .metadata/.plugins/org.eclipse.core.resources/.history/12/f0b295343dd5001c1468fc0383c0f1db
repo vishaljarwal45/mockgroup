@@ -1,0 +1,14 @@
+package inheritance;
+
+public class Mother {
+
+		public void love() {
+			System.out.println("mothers love");
+		}
+		public void home() {
+			System.out.println("mothers home "); 
+		}
+		
+	}
+
+

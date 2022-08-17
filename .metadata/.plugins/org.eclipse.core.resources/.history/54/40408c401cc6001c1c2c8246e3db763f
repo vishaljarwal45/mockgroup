@@ -1,0 +1,41 @@
+package myproject;
+
+public class Biodata {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// variable declaration
+        String name;
+        int rollNum;
+        int age;
+        char grade;
+        char gender;
+        float weight;
+        int height;
+        boolean result;
+        //assign value
+        name="vishal jarwal";
+        rollNum=45;
+        age=25;
+        grade='A';
+        gender='M';
+        weight=75f;
+        height=173;
+        result=true;
+        //usage
+        System.out.println("my name is "+name);
+        System.out.println("my rollnum is "+rollNum);
+        System.out.println("my age is "+age);
+        System.out.println("my grade is "+grade);
+        System.out.println("my gender is "+gender);
+        System.out.println("my weight is  "+weight);
+        System.out.println("my height is "+height+"cm");
+        System.out.println("above result is "+result);
+        
+        
+        
+        
+        
+	}
+
+}

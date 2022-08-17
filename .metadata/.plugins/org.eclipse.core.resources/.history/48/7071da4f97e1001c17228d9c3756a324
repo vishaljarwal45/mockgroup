@@ -1,0 +1,21 @@
+package casting;
+
+public class upcasting {
+
+	public static void main(String[] args) {
+
+           Amazon a=new Flipkart();
+                  a.macbook_air();
+                  a.Macbook_pro();
+                  
+                  
+                  Amazon k= new Amazon ();
+                       k.macbook_air();
+                       k.Macbook_pro();
+		
+		
+		
+		
+	}
+
+}

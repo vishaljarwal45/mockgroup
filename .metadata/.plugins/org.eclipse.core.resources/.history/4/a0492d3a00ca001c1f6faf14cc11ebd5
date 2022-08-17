@@ -1,0 +1,20 @@
+package practice;
+
+public class Mi {
+
+
+
+ public static void mumbai()
+ { System.out.println("this is mumbai indians ");
+	 
+ }
+    public void indians()
+    {
+    	System.out.println("this is new mumbai indians ");
+    }
+    public void vishal()
+    {
+    	System.out.println("maths operation ");
+    }
+}  
+

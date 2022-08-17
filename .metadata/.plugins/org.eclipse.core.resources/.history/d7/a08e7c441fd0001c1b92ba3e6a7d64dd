@@ -1,0 +1,26 @@
+package vishal;
+
+public class PrcEmployee {
+	
+String emp_name;
+String emp_org;
+String emp_desgn;
+String emp_id;
+char emp_gender;
+int emp_age;
+double emp_Mobnum;
+boolean employee_is  ;
+
+public void Emp_info() {
+	System.out.println("name of employee is "+emp_name);
+	System.out.println("organisation of employee is "+emp_org);
+	System.out.println("designation of employee is "+emp_desgn);
+	System.out.println("emoloyee id is "+emp_id);
+	System.out.println("age of employee is "+emp_age);
+	System.out.println("mobile number of employee is "+emp_Mobnum);
+	
+	
+}
+
+
+}

@@ -1,0 +1,41 @@
+package constructor;
+
+public class PracticeConst {
+
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+   public PracticeConst() {
+  		 a=10;
+  		 b=20;
+  		 c=30;
+  		 d=40;
+  		 e=50;
+  		 
+  public PracticeConst(int x, int y,int z, int p,int q) {
+  
+  a=x;
+  b=y;
+  c=z;
+  d=p;
+  e=q;
+  }
+
+	
+	public static void main(String[] args) {
+  
+    PracticeConst pc= new PracticeConst();
+       pc.test();
+   
+				 
+	}	 
+    	 
+		
+	
+       public void test() {
+     int multi=a*b*c*d*e;
+       System.out.println("this is multiolication of"+multi);
+}
+}

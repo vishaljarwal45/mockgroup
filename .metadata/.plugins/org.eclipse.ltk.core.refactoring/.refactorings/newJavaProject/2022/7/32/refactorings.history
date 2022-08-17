@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;files.Jtest.java&apos; to &apos;jiraAutomate.java&apos;&#x0D;&#x0A;- Original project: &apos;newJavaProject&apos;&#x0D;&#x0A;- Original element: &apos;files.Jtest.java&apos;&#x0D;&#x0A;- Renamed element: &apos;files.jiraAutomate.java&apos;" description="Rename compilation unit &apos;Jtest.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;files{Jtest.java" name="jiraAutomate.java" references="false" stamp="1659284127054" version="1.0"/>
+</session>

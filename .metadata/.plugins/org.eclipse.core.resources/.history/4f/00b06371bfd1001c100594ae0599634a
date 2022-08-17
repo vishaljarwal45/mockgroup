@@ -1,0 +1,35 @@
+package practice;
+
+public class PrcNestedIf {
+
+	public static void main(String[] args) {
+
+	//	int age=17;
+//		int weight=50;
+		
+	//	if(age>=18) {
+		//if (weight>=55) { System.out.println("you are eligible for blood donation");	
+	//	}
+	//	else {System.out.println("you are ineligible");}
+		
+//	}else {System.out.println("your age should be greater than 18 ");}
+		
+	//	}
+
+	{  String UN="vishal45";
+    String Pass="mumbai45";
+    
+    if (UN =="vishal45") {
+    	System.out.println("correct username enter correct pass");
+    
+    }  if (Pass=="mumbai45") {
+    	System.out.println("login successful");
+    
+
+	} else {
+    
+    System.out.println("wrong pass");
+	}
+    
+}
+    }

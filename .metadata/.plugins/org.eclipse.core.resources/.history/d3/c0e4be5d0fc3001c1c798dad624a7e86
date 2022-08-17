@@ -1,0 +1,16 @@
+package myproject;
+
+public class integer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int rollNum;
+		rollNum=12;
+		System.out.println("10");
+		System.out.println(rollNum);
+		System.out.println("my roll no is "+rollNum);
+		
+
+	}
+
+}

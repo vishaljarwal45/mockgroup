@@ -1,0 +1,21 @@
+package newProject;
+
+public class basics {
+
+	public static void main(String[] args) {
+
+        //given --all input  details
+		//when  -- submit the api
+		//then  -- validate the response
+		
+  
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

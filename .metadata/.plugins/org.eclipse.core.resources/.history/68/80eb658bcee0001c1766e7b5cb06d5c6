@@ -1,0 +1,21 @@
+package generalisation;
+
+public class Vehicle extends car{
+
+	public static void main(String[] args) {
+
+
+		
+		
+	}
+   
+	void size() {
+		System.out.println("diiferent size of vehicles are there");
+	}
+	
+	void battery() {
+		System.out.println("all vehicles having the batteries");
+	}
+	
+	
+}

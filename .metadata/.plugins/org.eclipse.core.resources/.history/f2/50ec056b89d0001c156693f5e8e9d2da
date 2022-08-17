@@ -1,0 +1,37 @@
+package vishal;
+
+public class MpscCutOff {
+	
+
+	
+
+		public static void main(String[] args) {
+	 
+	
+			int marks=41;
+			if(marks>=90) {
+				System.out.println("i am eligible ");
+			}   
+				else if(marks>=66 & marks<90) {
+					System.out.println("i am eligible for STI");}
+		        
+				else if(marks>=50 & marks<66) {
+					System.out.println("i am eligible for ASO");}
+					
+					else if (marks>=40 & marks<50) {
+						System.out.println(" i am eligible for PSI");}
+					
+					else 
+					{ System.out.println("i am fail");
+							
+				}
+				
+				
+				
+			
+				}
+		
+
+				}
+
+
